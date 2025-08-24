@@ -1,0 +1,31 @@
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+
+# Local data (large CSVs)
+data/raw/*.csv
+data/processed/*.csv
+
+# VSCode settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# System junk
+.DS_Store
+Thumbs.db
